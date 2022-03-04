@@ -12,27 +12,29 @@ Host: [Centre for Mathematical Modelling of Infectious Diseases](https://www.lsh
 
 ## Organisers
 * Alexis Robert
-* Emily Nightingale, Lloyd Champan, Sebastian Funk
+* Emily Nightingale
+* Lloyd Champan
+* Sebastian Funk
 
-## Confirmed speakers
+## Confirmed presenters
+* Alastair Munro
+* Cici Bauer
+* Claudio Fronterre
 * Johannes Bracher
 * Leonard Held
-* Sebastian Mayer
-* Claudio Fronterre
-* Cici Bauer
-* Alastair Munro
 * Mathilde Grimée
+* Sebastian Mayer
 
 ## Provisional (all in London time)
 
-| Time  |                                                                |
-|-------|----------------------------------------------------------------|
-| 9:30  | Introduction (Johannes Bracher, Leonard Held, Sebastian Meyer) |
-| 10:00 | R tutorial: using hhh4                                         |
-| 12:30 | Lunch break                                                    |
-| 13:30 | Short talks on applications                                    |
-| 14:30 | Coffee                                                         |
-| 15:00 | Short talks on applications                                    |
-| 16:00 | Discussion / Outlook                                           |
-| 16:30 | Closing                                                        |
+| Time  |                             |
+|-------|-----------------------------|
+| 9:30  | Introduction                |
+| 10:00 | R tutorial: using hhh4      |
+| 12:30 | Lunch break                 |
+| 13:30 | Short talks on applications |
+| 14:30 | Coffee                      |
+| 15:00 | Short talks on applications |
+| 16:00 | Discussion / Outlook        |
+| 16:30 | Closing                     |
 
