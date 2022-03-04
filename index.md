@@ -29,7 +29,8 @@ Spatio-temporal models are used extensively to describe infectious disease dynam
 * Johannes Bracher
 * Leonard Held
 * Mathilde Grimée
-* Sebastian Mayer
+* Maria Bekker-Nielsen Dunbar
+* Sebastian Meyer
 
 ## Provisional programme (all in London time)
 
