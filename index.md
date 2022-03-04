@@ -10,7 +10,7 @@ Registration link: tbc
 
 When: 23 March 2022
 
-Host: [Centre for Mathematical Modelling of Infectious Diseases](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)
+Host: [Centre for Mathematical Modelling of Infectious Diseases](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) at the [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk)
 
 More information will be added to the page soon.
 
