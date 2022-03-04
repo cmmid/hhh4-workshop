@@ -2,6 +2,8 @@
 title: Workshop on the endemic-epidemic framework and hhh4
 ---
 
+# Workshop on the endemic-epidemic framework and hhh4
+
 Where: LSHTM (tbc) + online
 
 Registration link: tbc
