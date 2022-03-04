@@ -27,7 +27,7 @@ Host: [Centre for Mathematical Modelling of Infectious Diseases](https://www.lsh
 * Mathilde Grimée
 * Sebastian Mayer
 
-## Provisional (all in London time)
+## Provisional programme (all in London time)
 
 | Time  |                             |
 |-------|-----------------------------|
