@@ -4,11 +4,15 @@ title: Workshop on the Endemic-Epidemic framework for infectious disease modelli
 
 # Workshop on the Endemic-Epidemic framework for infectious disease modelling
 
-Where: LSHTM (tbc) + online
+Where: LSHTM (LG81, Lucas Room, Keppel St, WC1E 7HT) + online on Zoom
 
-Registration link: tbc
+Registration link:
 
-When: 23 March 2022
+[In-person attendance](https://www.eventbrite.co.uk/e/workshop-on-the-endemic-epidemic-framework-for-infectious-disease-modelling-tickets-293713102797)
+
+[Online attendance](https://lshtm.zoom.us/meeting/register/tJwsf-qqqDMqH9Q6jJ3TZ9cAI8ro09_3p2Rd)
+
+When: 23 March 2022, 9:30-16:30
 
 Host: [Centre for Mathematical Modelling of Infectious Diseases](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) at the [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk)
 
