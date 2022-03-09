@@ -25,16 +25,18 @@ Spatio-temporal models are used extensively to describe infectious disease dynam
 ## Organisers
 * Alexis Robert
 * Emily Nightingale
-* Lloyd Champan
+* Lloyd Chapman
 * Sebastian Funk
 
 ## Confirmed presenters
-* Alastair Munro
-* Cici Bauer
-* Claudio Fronterre
+* Alexis Robert - [Measles in France](https://www.medrxiv.org/content/10.1101/2021.05.31.21257977v1.full)
+* Emily Nightingale - [Visceral leishmaniasis in India](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0008422)
+* Alastair Munro - [Pertussis in England  & Wales](https://www.sciencedirect.com/science/article/pii/S0277953620305141?via%3Dihub)
+* Cici Bauer - [Hand, foot and mouth disease in China](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12284)
+* Claudio Fronterre - [COVID-19 in Africa](https://www.pnas.org/doi/10.1073/pnas.2026664118)
 * Johannes Bracher
 * Leonard Held
-* Mathilde Grimée
+* Mathilde Grimée - [COVID-19 in Switzerland](https://www.sciencedirect.com/science/article/pii/S2211675321000622)
 * Maria Bekker-Nielsen Dunbar
 * Sebastian Meyer
 
