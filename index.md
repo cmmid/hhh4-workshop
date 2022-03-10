@@ -4,7 +4,7 @@ title: Workshop on the Endemic-Epidemic framework for infectious disease modelli
 
 # Workshop on the Endemic-Epidemic framework for infectious disease modelling
 
-Where: LSHTM (LG81, Lucas Room, Keppel St, WC1E 7HT) + online on Zoom
+Where: LSHTM (LG81, Lucas Room, Keppel St, London, WC1E 7HT) + online on Zoom
 
 [Building map](Keppel Street - Lower Ground Floor.png)
 
