@@ -810,9 +810,9 @@ fanplot_stationary(stat7, unit = 4)</code></pre>
 <pre class="r"><code># owa &lt;- oneStepAhead(your_fit, tp = c(312, 363))
 # or: owa &lt;- oneStepAhead_hhh4(your_fit, tp = c(312, 363))
 # if you have used profile_par_lag 
-# colMeans(scores(owa))
-#     logs       rps       dss       ses 
-# 1.931189  1.639351  3.139681 22.410975 </code></pre>
+# colMeans(scores(owa), which = c(&quot;logs&quot;, &quot;rps&quot;))
+#     logs       rps
+# 1.931189  1.639351</code></pre>
 <p>If you like you can post your results here (<a href="https://github.com/cmmid/hhh4-workshop/issues/1" class="uri">https://github.com/cmmid/hhh4-workshop/issues/1</a>) or on the chat.</p>
 <p>Here are some model aspects you can play around with:</p>
 <ul>
@@ -833,7 +833,6 @@ ctrl &lt;- list(end = list(f = addSeason2formula(~0 + fe(1, unitSpecific = TRUE)
              subset = 6:312)
 # though that is not necessarily a very smart way of using the covariate</code></pre>
 <p></p>
-<p>\end{document}</p>
 </div>
 </div>
 
