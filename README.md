@@ -22,9 +22,11 @@ If you attempt to load a package without first installing it you should encounte
 
 ```
 Error in library(surveillance) : there is no package called ‘surveillance’
+```
 
 Please note that certain packages require specific versions of R. You may end up with an error message like
 
+```
 Warning in install.packages :
   package ‘<package name>’ is not available for this version of R
 
