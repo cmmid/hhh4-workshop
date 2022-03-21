@@ -1,7 +1,7 @@
 # hhh4-workshop
 Workshop on hhh4 and the endemic-epidemic framework
 
-## Prerequisites for tutorial part of hhh4addon workshop:
+## Prerequisites for tutorial part of hhh4 workshop:
 
 To participate in the tutorial session you will need a computer with the statistical analysis software R installed. R can be downloaded and installed from https://cran.r-project.org/. You need to install the packages "surveillance" and "hhh4addon". In the tutorial it will be assumed that you have installed R and the required packages.
 

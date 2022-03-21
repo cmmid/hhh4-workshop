@@ -30,26 +30,26 @@ Spatio-temporal models are used extensively to describe infectious disease dynam
 
 ## Introduction, tutorial and summary
 * Johannes Bracher
-* Leonard Held
+* Leonhard Held
 * Maria Bekker-Nielsen Dunbar
 * Sebastian Meyer
 
 ## Applications
 * Mathilde Grimée: [COVID-19 in Switzerland](https://www.sciencedirect.com/science/article/pii/S2211675321000622)
 * Trang Nguyen: Measles in Vietnam
-* Claudio Fronterre: COVID-19 in England 
+* Claudio Fronterre: [COVID-19 in England](https://www.medrxiv.org/content/10.1101/2020.05.15.20102715v1)
 * Aurelie Jaundron: Cholera in the Democratic Republic of Congo
 * Alastair Munro: [Pertussis in England  & Wales](https://www.sciencedirect.com/science/article/pii/S0277953620305141?via%3Dihub)
 * Alexis Robert: [Measles in France](https://www.medrxiv.org/content/10.1101/2021.05.31.21257977v1.full)
 * Emily Nightingale: [Visceral leishmaniasis in India](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0008422)
 * Cici Bauer: [Hand, foot and mouth disease in China](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12284)
 
-## Provisional programme (all in London time)
+## Final programme (all in London time)
 
 | Time  |                             | Presenter                                                                      |
 |-------|-----------------------------|--------------------------------------------------------------------------------|
 | 9:30  | Welcome                     |                                                                                |
-| 9:35  | Introduction                | Leonard Held                                                                   |
+| 9:35  | Introduction                | Leonhard Held                                                                   |
 | 10:00 | R tutorial: using hhh4      | Sebastian Meyer <br> Johannes Bracher <br> Maria Bekker-Nielsen Dunbar         |
 | 12:30 | Lunch break                 |                                                                                |
 | 13:30 | Short talks on applications | Mathilde Grimée <br> Trang Nguyen <br> Claudio Fronterre <br> Aurelie Jeandron |
