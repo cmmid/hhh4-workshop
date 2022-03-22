@@ -40,3 +40,5 @@ For a description of the surveillance package run the command
 ```
 package?surveillance
 ```
+
+To run the code for the tutorial, clone or download this repository onto your machine using the green button at the top of this page. Open R/RStudio and change the working directory to wherever you cloned/downloaded the repository. Open the `tutorial.R` script and the execute the code line by line.
