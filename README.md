@@ -46,3 +46,18 @@ your machine using the green button at the top of this page. Open
 R/RStudio and change the working directory to wherever you
 cloned/downloaded the repository. Read the tutorial instructions and open
 the R script provided for the tutorial to execute the code line by line.
+
+
+## Further reading
+
+- <https://surveillance.R-forge.R-project.org/> (package website)
+
+- The package vignettes
+  [`vignette("hhh4")`](https://CRAN.R-project.org/package=surveillance/vignettes/hhh4.pdf)
+  and
+  [`vignette("hhh4_spacetime")`](https://CRAN.R-project.org/package=surveillance/vignettes/hhh4_spacetime.pdf)
+
+- Two case studies on [`hhh4`-based forecasting](https://HIDDA.github.io/forecasting/)
+
+- [List of published applications](https://surveillance.r-forge.r-project.org/applications_EE.html)
+  of the endemic-epidemic modelling frameworks
