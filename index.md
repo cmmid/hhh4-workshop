@@ -35,7 +35,7 @@ Spatio-temporal models are used extensively to describe infectious disease dynam
 * Sebastian Meyer
 
 ## Material for tutorial
-The code for the tutorial part of the workshop can be found [here](https://github.com/cmmid/hhh4-workshop) under [example_noro_rota](example_noro_rota/). In order to participate in the tutorial you will need to have R installed on your computer and to install the `surveillance` and `hhh4addon` R packages. Instructions for how to do this can be found [here](README.md).
+The code for the tutorial part of the workshop can be found [here](https://github.com/cmmid/hhh4-workshop) under `example_noro_rota`. In order to participate in the tutorial you will need to have R installed on your computer and to install the `surveillance` and `hhh4addon` R packages. Instructions for how to do this can be found [here](README.md).
 
 ## Applications
 * Mathilde Grimée: [COVID-19 in Switzerland](https://www.sciencedirect.com/science/article/pii/S2211675321000622)
