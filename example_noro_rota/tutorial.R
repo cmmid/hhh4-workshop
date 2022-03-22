@@ -30,7 +30,7 @@ plot(noroBE, ylim = c(0, 40))
 # map:
 # as population(noroBE) contains population fractions rather than raw
 # population sizes setting population = 100000/<population of Berlin>
-# will yield cumulative incidence per 100.000 inhabitants; see ?stsplot_space
+# will yield cumulative incidence per 100,000 inhabitants; see ?stsplot_space
 plot(noroBE, observed ~ unit, population = 100000/3500000, labels = TRUE)
 
 
@@ -45,7 +45,7 @@ noroBE@neighbourhood
 # fits to ensure comparability of AIC values):
 subset_fit <- 6:(nrow(noroBE@observed) - 52)
 # we are leaving out the last year and the first 5 observations
-# the latter serves to ensure comparability to late model versions
+# the latter serves to ensure comparability to later model versions
 
 ##################################################################
 # Model 1:
@@ -138,7 +138,6 @@ ctrl3 <- list(end = list(f = addSeason2formula(~0 + fe(1, unitSpecific = TRUE),
 # normalize = TRUE normalizes weights by the number of neighbours of the 
 # exporting district
 fit3 <- hhh4(noroBE, ctrl3)
-AIC(fit3)
 # alternative: use update
 # fit3 <- update(fit2, ne = list(f = ~ 0 + fe(1, unitSpecific = TRUE),
 #                                weights = neighbourhood(noroBE) == 1,  # little bug?
@@ -155,9 +154,9 @@ plot(fit3, unit = 1:12)
 ##################################################################
 # Model 4
 
-# For the next model version we will formally include the autoregressive into
-# the neighbourhood component
-# (i.e. do no longer treat autoregression on the same district separately). 
+# For the next model version we will formally incorporate the autoregressive 
+# component into the neighbourhood component
+# (i.e. no longer treat autoregression on the same district separately). 
 # This can be done as follows.
 # First we need to adapt the neighbourhood matrix, shifting by one
 noroBE_power <- noroBE
@@ -174,11 +173,14 @@ ctrl4 <- list(end = list(f = addSeason2formula(~0 + fe(1, unitSpecific = TRUE),
               subset = subset_fit)
 # normalize = TRUE normalizes weights by the number of neighbours of the
 # exporting district
-# log = TRUE means optimization will be done on a  log scale, ensuring 
+# log = TRUE means optimization will be done on a log scale, ensuring 
 # positivity of the decay parameter (which is desirable)
 fit4 <- hhh4(noroBE_power, ctrl4)
 AIC(fit4)
 
+## ----plot4-------------------------------------------------------------------------------------------------------
+plot(fit4, unit = 1:12)
+# note there is now no autoregressive component in the fit plots
 
 ## ----neweights,cache=TRUE, fig.height=4--------------------------------------------------------------------------
 # visualize the nighbourhood weights:
@@ -214,20 +216,20 @@ for(unit in colnames(pr5)){
 # check out examples of the different lag types:
 # geometric:
 (g <- geometric_lag(par_lag = 1.5, min_lag = 1, max_lag = 5))
-# first weight corresponds to exp(1)/(1 + exp(1))
+# first weight corresponds to exp(1.5)/(1 + exp(1.5))
 # 5 is also the default number of lags
 
 # Poisson:
 (p <- poisson_lag(par_lag = 0.8, min_lag = 1, max_lag = 5))
-# weights correspond to dpois(0:5, exp(1))/sum(dpois(0:4, exp(1)))
+# weights correspond to dpois(0:4, exp(0.8))/sum(dpois(0:4, exp(0.8)))
 
 par(mfrow = 1:2)
 plot(g, xlab = "lag", ylab = "weight", ylim = 0:1, type = "h", 
      main = "Geometric weights")
 plot(p, xlab = "lag", ylab = "weight", ylim = 0:1, type = "h", 
      main = "Poisson weights")
-# moreover a two-point distribution and a triangular distribution. Users can
-# also provide their own weighting functions.
+# A two-point distribution and a triangular distribution are also available. 
+# Users can also provide their own weighting functions.
 
 
 ## ----fit6, cache=TRUE--------------------------------------------------------------------------------------------
@@ -290,7 +292,7 @@ for(unit in colnames(pr7)){
 log2 <- capture.output(owa2 <- oneStepAhead(fit2, tp = c(312, 363)))
 log4 <- capture.output(owa4 <- oneStepAhead(fit4, tp = c(312, 363)))
 rm(log2, log4)
-# the weird capture.output fourmulation is needed to suppress 
+# the weird capture.output formulation is needed to suppress 
 # numerous cat() messages.
 # you could also just use
 # owa2 <- oneStepAhead(fit2, tp = c(312, 363))
@@ -334,7 +336,7 @@ fanplot_stationary(stat7, unit = 4)
 
 ## ----rotaBE------------------------------------------------------------------------------------------------------
 data("rotaBE")
-# if you don't have the hhh4addon packae installed you can use:
+# if you don't have the hhh4addon package installed you can use:
 # load(
 # url("https://github.com/cmmid/hhh4-workshop/raw/main/example_noro_rota/rotaBE.Rda")
 # )
