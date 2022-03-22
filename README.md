@@ -41,7 +41,7 @@ For a description of the surveillance package run the command
 package?surveillance
 ```
 
-To run the code for the tutorials, clone or download this repository onto
+To run the code for the tutorials, **clone or download this repository** onto
 your machine using the green button at the top of this page. Open
 R/RStudio and change the working directory to wherever you
 cloned/downloaded the repository. Read the tutorial instructions and open

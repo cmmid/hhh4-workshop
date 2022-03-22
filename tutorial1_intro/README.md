@@ -10,3 +10,7 @@ This folder contains files for the first part of the tutorial.
 
 - A [data](data) folder containing datasets used for illustration (code to
   import these data is already provided in the template)
+
+The template assumes that the data is stored in the `data` subdirectory of
+the current R working directory, which should be fine if you have
+downloaded the whole repository and work inside this folder.
