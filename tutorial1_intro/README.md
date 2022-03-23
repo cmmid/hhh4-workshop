@@ -2,7 +2,7 @@
 
 This folder contains files for the first part of the tutorial.
 
-<!-- - My [introductory slides](slides.pdf) -->
+- My [introductory slides](slides.pdf)
 
 - A [webpage with the instructions](https://htmlpreview.github.io/?https://github.com/cmmid/hhh4-workshop/blob/main/tutorial1_intro/index.html)
 
