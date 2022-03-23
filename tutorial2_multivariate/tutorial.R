@@ -367,7 +367,7 @@ your_fit <- hhh4(rotaBE, ctrl)
 # get temperature data:
 data_temperature <-
   read.csv(paste0("https://raw.githubusercontent.com/cmmid/hhh4-workshop/", 
-                  "main/example_noro_rota/temperature_berlin.csv"))
+                  "main/tutorial2_multivariate/data/temperature_berlin.csv"))
 temperature <- data_temperature$temperature7d
 # your formula could look as follows:
 ctrl <- list(end = list(f = addSeason2formula(~0 + fe(1, unitSpecific = TRUE),
