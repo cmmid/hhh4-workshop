@@ -265,7 +265,7 @@ ctrl7 <- list(end = list(f = addSeason2formula(~0 + fe(1, unitSpecific = TRUE),
               funct_lag = geometric_lag)
 # now use profile_par_lag (applies a profile likelihood procedure to estimate
 # the lag decay parameter)
-fit7 <- profile_par_lag(noroBE_power, ctrl6)
+fit7 <- profile_par_lag(noroBE_power, ctrl7)
 AIC(fit7)
 
 
