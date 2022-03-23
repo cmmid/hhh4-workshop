@@ -19,7 +19,7 @@ library(hhh4addon)
 data("noroBE")
 # if you don't have the hhh4addon packae installed you can use:
 # load(
-# url("https://github.com/cmmid/hhh4-workshop/raw/main/example_noro_rota/noroBE.Rda")
+# url("https://github.com/cmmid/hhh4-workshop/raw/main/example_noro_rota/data/noroBE.Rda")
 # )
 
 
@@ -338,7 +338,7 @@ fanplot_stationary(stat7, unit = 4)
 data("rotaBE")
 # if you don't have the hhh4addon package installed you can use:
 # load(
-# url("https://github.com/cmmid/hhh4-workshop/raw/main/example_noro_rota/rotaBE.Rda")
+# url("https://github.com/cmmid/hhh4-workshop/raw/main/example_noro_rota/data/rotaBE.Rda")
 # )
 
 
