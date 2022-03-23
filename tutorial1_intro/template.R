@@ -1,12 +1,13 @@
 ## ----import ECDC data---------------------------------------------------------
 ecdc_long <- read.csv("data/ECDC_surveillance_data_IMD.csv.gz",
-                      na.strings = "-") |>    # always important to know NA encoding!
-  subset(!RegionName %in% c("EU/EEA", "EU"))  # exclude aggregate counts
+                      na.strings = "-") # always important to know NA encoding!
+## exclude aggregate counts
+ecdc_long <- subset(ecdc_long, !RegionName %in% c("EU/EEA", "EU"))
 
 ## reshape from long to wide format of multivariate time series
 ecdc <- reshape(ecdc_long[c("Time", "RegionCode", "NumValue")],
-                direction = "wide", idvar = "Time", timevar = "RegionCode",
-                varying = unique(ecdc_long$RegionCode))
+                direction = "wide", idvar = "Time", timevar = "RegionCode")
+names(ecdc) <- sub("NumValue.", "", names(ecdc), fixed = TRUE)
 row.names(ecdc) <- ecdc$Time; ecdc$Time <- NULL
 
 head(ecdc)
@@ -59,6 +60,8 @@ library("surveillance")
 (start <- as.numeric(strsplit(rownames(ecdc)[1], split="-")[[1]]))
 
 ## IMD0 <- sts(....)  # see help("sts")
+
+
 
 
 
