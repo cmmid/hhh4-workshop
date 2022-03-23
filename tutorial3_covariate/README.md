@@ -1,0 +1,1 @@
+The purpose of this exercise is to gain some experience using the software. The model is overly simplified to be particularly informative but this should give you the building blocks you need to make steps towards using the software with your own data.
