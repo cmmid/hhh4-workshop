@@ -43,7 +43,7 @@ The code for the tutorial part of the workshop can be found [here](https://githu
 
 ## Applications
 * Mathilde Grimée: [COVID-19 in Switzerland](https://www.sciencedirect.com/science/article/pii/S2211675321000622)
-* Trang Nguyen: Measles in Vietnam
+* Trang Nguyen: [Measles in Vietnam](https://doi.org/10.1016/j.ijid.2022.07.055)
 * Claudio Fronterre: [COVID-19 in England](https://www.medrxiv.org/content/10.1101/2020.05.15.20102715v1)
 * Johannes Bracher: [Fitting endemic-epidemic models to underreported disease surveillance counts](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13371)
 * Alastair Munro: [Pertussis in England  & Wales](https://www.sciencedirect.com/science/article/pii/S0277953620305141?via%3Dihub)
